@@ -1,14 +1,14 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-	<modelVersion>4.0.0</modelVersion>
-	<groupId>Myntra</groupId>
-	<artifactId>Myntra</artifactId>
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+	<groupId>BDD.HW</groupId>
+	<artifactId>BDD.HW</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
 	<developers>
 		<developer>
-			<id>MNH</id>
-			<name>Mohammad N Haq</name>
+			<id>ZJ</id>
+			<name>Zebun Jubair</name>
 			<organization>TalenTech</organization>
 			<organizationUrl>http://www.talentech.com</organizationUrl>
 			<roles>
@@ -18,38 +18,45 @@
 	</developers>
 
 	<dependencies>
-	
+
+		<dependency>
+			<groupId>io.github.bonigarcia</groupId>
+			<artifactId>webdrivermanager</artifactId>
+			<version>3.7.1</version>
+			<scope>test</scope>
+		</dependency>
+
 		<dependency>
 			<groupId>info.cukes</groupId>
 			<artifactId>cucumber-core</artifactId>
 			<version>1.2.4</version>
 		</dependency>
-	
-	      <dependency>
+
+		<dependency>
 			<groupId>info.cukes</groupId>
 			<artifactId>cucumber-java</artifactId>
 			<version>1.2.4</version>
 		</dependency>
-		
-		  <dependency>
+
+		<dependency>
 			<groupId>info.cukes</groupId>
 			<artifactId>cucumber-testng</artifactId>
 			<version>1.2.4</version>
-		</dependency>	
-		
-		  <dependency>
+		</dependency>
+
+		<dependency>
 			<groupId>info.cukes</groupId>
 			<artifactId>gherkin</artifactId>
 			<version>2.12.2</version>
 			<scope>provided</scope>
 		</dependency>
-		
-		  <dependency>
+
+		<dependency>
 			<groupId>info.cukes</groupId>
 			<artifactId>cucumber-jvm-deps</artifactId>
 			<version>1.0.5</version>
 		</dependency>
-	
+
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-java</artifactId>
@@ -69,7 +76,7 @@
 			<version>3.1.5</version>
 			<scope>provided</scope>
 		</dependency>
-	
+
 		<dependency>
 			<groupId>com.vimalselvam</groupId>
 			<artifactId>cucumber-extentsreport</artifactId>
@@ -79,7 +86,7 @@
 	</dependencies>
 
 	<build>
-		<!--  <sourceDirectory>src</sourceDirectory> -->
+		<!-- <sourceDirectory>src</sourceDirectory> -->
 		<plugins>
 			<plugin>
 				<artifactId>maven-compiler-plugin</artifactId>
@@ -104,3 +111,4 @@
 		</plugins>
 	</build>
 </project>
+  

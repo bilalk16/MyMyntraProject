@@ -1,8 +1,8 @@
 Feature: myntra Login Feature
 
-Scenario: myntra Login with Wrong username and weong password
+Scenario: myntra Login with right username and right password
 
-Given myntra lign page is launched
-When user input wrong "UserID" and wrong "password"
-Then user should recieve an error message
+Given myntra login page is launched
+When user input right "UserID" and right "password"
+Then user should login successfully
 
