@@ -5,17 +5,16 @@ import org.openqa.selenium.support.FindBy;
 
 public class myntraLoginElements {
 
-		@FindBy(name="userID")
-		public WebElement userid;
+		@FindBy(name="email")
+		public WebElement Email;
 		
 		@FindBy(name="password")
 		public WebElement password;
 		
-		@FindBy(id="submitBtn")
+		@FindBy(className="login-login-button")
 		public WebElement submit;
 		
-		@FindBy(id="errorMessages")
-		public WebElement errorMsg;
+		
 	}
 
 	
